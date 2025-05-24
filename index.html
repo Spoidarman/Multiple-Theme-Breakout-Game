@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Breakout</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <header class="game-header">
+      <h1 class="game-title">NEON BREAKOUT</h1>
+      <div class="game-controls">
+        <button id="sound-btn" class="control-btn sound-on" title="Toggle Sound">🔊</button>
+        <button id="rules-btn" class="control-btn" title="Game Rules">❓</button>
+      </div>
+    </header>
+
+    <div class="game-stats">
+      <div class="stat-box">
+        <span class="stat-label">SCORE</span>
+        <span id="score-display" class="stat-value">00000</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-label">LEVEL</span>
+        <span id="level-display" class="stat-value">01</span>
+      </div>
+    </div>
+
+    <canvas id="game-canvas" width="800" height="500"></canvas>
+
+    <div id="rules-modal" class="modal" style="z-index: 1;">
+      <div class="modal-content">
+        <h2>GAME RULES</h2>
+        <ul class="rules-list">
+          <li>Use ← → arrows to move the paddle</li>
+          <li>Break all bricks to advance</li>
+          <li>Don't let the ball drop!</li>
+          <li>Complete levels to increase difficulty</li>
+        </ul>
+        <button id="close-rules-btn" class="modal-btn">GOT IT!</button>
+      </div>
+    </div>
+
+    <div id="game-over-modal" class="modal">
+      <div class="modal-content game-over-content">
+        <h2>GAME OVER</h2>
+        <div class="result-stats">
+          <div class="result-stat">
+            <span class="result-label">FINAL SCORE</span>
+            <span id="final-score" class="result-value">00000</span>
+          </div>
+          <div class="result-stat">
+            <span class="result-label">LEVEL REACHED</span>
+            <span id="final-level" class="result-value">01</span>
+          </div>
+        </div>
+        <button id="restart-btn" class="modal-btn pulse">PLAY AGAIN</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="bounce-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-arcade-game-jump-coin-216.mp3"></audio>
+  <audio id="brick-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-unlock-game-notification-253.mp3"></audio>
+  <audio id="gameover-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-retro-arcade-lose-2027.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
