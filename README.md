@@ -1,6 +1,3 @@
-Here's a clean GitHub repository description for your Neon Breakout game:
-
----
 
 # Neon Breakout 🎮✨
 
@@ -33,4 +30,4 @@ This description:
 5. Avoids mentioning the dystopian theme
 6. Uses emojis for visual appeal (GitHub supports these)
 
-You can adjust the emojis or feature list as needed for your specific implementation.
+7. ----- Design and Develop By Moinak
