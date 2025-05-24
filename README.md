@@ -1,6 +1,6 @@
 # Neon Breakout 🎮✨
 
-![Neon Breakout Game Screenshot](/neon-breakouit1.png) *← Replace with your actual screenshot*
+![Neon Breakout Game Screenshot](/neon-breakouit1.png)
 
 A modern, visually stunning implementation of the classic Breakout game with neon aesthetics and professional polish. 
 
@@ -25,17 +25,6 @@ A modern, visually stunning implementation of the classic Breakout game with neo
 - CSS animations
 - Web Audio API
 
-[![Play Now](/neon-breakouit2.png)](https://neon-breakout.netlify.app/) 
+[![Play Now](/neon-breakouit2.png)](https://neon-breakout.netlify.app/) *← Tap On The Screenshot To Play The Game*
 
----
-
-To add your actual screenshot:
-1. Take a screenshot of your game in action
-2. Save it as `demo-screenshot.png` in your repo
-3. The markdown will automatically display it
-
-For best results:
-- Use a screenshot showing the neon effects clearly
-- Capture mid-gameplay with some bricks broken
-- Recommended size: 1280×720 pixels
-- Compress the image to keep repo size small
+# Design And Develop By Moinak 🎮✨
