@@ -1,6 +1,6 @@
 # Neon Breakout 🎮✨
 
-![Neon Breakout Game Screenshot](/demo-screenshot.png) *← Replace with your actual screenshot*
+![Neon Breakout Game Screenshot](/neon-breakouit1.png) *← Replace with your actual screenshot*
 
 A modern, visually stunning implementation of the classic Breakout game with neon aesthetics and professional polish. 
 
@@ -25,7 +25,7 @@ A modern, visually stunning implementation of the classic Breakout game with neo
 - CSS animations
 - Web Audio API
 
-[![Play Now](https://neon-breakout.netlify.app/)](https://neon-breakout.netlify.app/) 
+[![Play Now](/neon-breakouit2.png)](https://neon-breakout.netlify.app/) 
 
 ---
 
